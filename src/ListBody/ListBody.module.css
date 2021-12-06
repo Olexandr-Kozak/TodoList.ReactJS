@@ -1,0 +1,28 @@
+.list{
+    height: 300px;
+    overflow-y: scroll ;
+}
+.listLi{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #cccccc;
+    padding: 5px 15px;
+
+
+}
+.deleteBtn{
+    background-color: #ffffff;
+    color: Black;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #aaaddd;
+    border-radius: 2px;
+}
+.deleteBtn:hover{
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    margin: 5px;
+    text-align: center;
+}
